@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="status_loading_models">Estado: Cargando modelos offline (ES y EN)…</string>
+    <string name="status_error_model_es">Estado: ❌ Error modelo ES: %1$s</string>
+    <string name="status_error_model_en">Estado: ❌ Error modelo EN: %1$s</string>
+    <string name="status_models_ready">Estado: 🟢 Modelos ES/EN listos (Modo: Español ➡️ Inglés)</string>
+    <string name="status_no_esp32">Estado: No se detectó ninguna ESP32</string>
+    <string name="status_grant_usb_permission">Estado: ⚠️ Concede permisos USB</string>
+    <string name="status_connected_usb">Estado: 🟢 Conectado por USB-C</string>
+    <string name="status_usb_exception">Excepción USB: %1$s</string>
+    <string name="models_still_loading">Los modelos aún se están cargando…</string>
+    <string name="connect_esp32_first">Primero conecta la ESP32 por USB</string>
+    <string name="listening_es_to_en">Escuchando (Español ➡️ Inglés)…</string>
+    <string name="listening_en_to_es">Escuchando (Inglés ➡️ Español)…</string>
+    <string name="status_format">Estado: 🟢 %1$s</string>
+    <string name="status_receiving_esp32_audio">Estado: 🟢 Recibiendo audio desde ESP32-S3…</string>
+    <string name="status_speak_now">Estado: 🟢 Habla ahora (Frase completa)…</string>
+    <string name="listening_dots">Escuchando…</string>
+    <string name="processing_stream">Procesando stream…</string>
+    <string name="status_phrase_translation_ready">Estado: 🟣 Traducción de frase lista</string>
+    <string name="status_onnx_ready">Estado: 🟢 Modelos de voz y traducción neuronal listos</string>
+    <string name="status_hybrid_mode">Estado: ⚠️ Modo híbrido (Coloca el .onnx para traducción neuronal completa)</string>
+    <string name="text_concat">%1$s %2$s</string>
+    <string name="waiting_esp32_voice">Esperando voz de la ESP32…</string>
+    <string name="translating_serial_stream">Traduciendo stream serial…</string>
+    <string name="status_usb_translation_completed">Estado: 🟣 Traducción USB completada</string>
+    <string name="status_connected_mode">Estado: 🟢 Conectado (%1$s)</string>
+    <string name="no_audio_from_esp32">(Sin audio recibido de la ESP32)</string>
+    <string name="usb_read_error">Error de lectura USB: %1$s</string>
+    <string name="translating_realtime">Traduciendo en tiempo real…</string>
+    <string name="status_translation_completed">Estado: 🟣 Traducción completada</string>
+    <string name="mode_es_to_en">Español ➡️ Inglés</string>
+    <string name="mode_en_to_es">Inglés ➡️ Español</string>
+    <string name="status_ready_mode">Estado: 🟢 Listo (%1$s)</string>
+    <string name="no_clear_voice_detected">(No se detectó voz clara)</string>
+    <string name="status_audio_error">Error de audio: %1$s</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Silicon Labs CP210x (Muy común en ESP32) -->
+    <usb-device vendor-id="4292" product-id="60000" />
+    <!-- QinHeng CH340 (También común en clones de ESP32) -->
+    <usb-device vendor-id="6790" product-id="29987" />
+    <!-- Permiso genérico de puerto serie USB -->
+    <usb-device class="255" subclass="66" protocol="1" />
+    <!-- Permite detectar dispositivos de comunicación USB serial genéricos -->
+    <usb-device class="255" subclass="66" protocol="1" />
+    <usb-device class="2" />
+</resources>

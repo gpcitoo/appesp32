@@ -1,0 +1,21 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# Ignorar modelos de Vosk y ONNX pesados
+/app/src/main/assets/model-es/
+/app/src/main/assets/model-en/
+/app/src/main/assets/onxx_model/
+*.onnx
+*.zip
